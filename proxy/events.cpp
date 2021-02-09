@@ -942,7 +942,7 @@ bool events::out::generictext(std::string packet) {
         else if (find_command(chat, "bypassdoor")) {
             if (events::out::type2 > 2)
             {
-                g_server->send(false, "action|dialog_return\ndialog_name|door_edit\ntilex|" + std::to_string(setx) + "|\ntiley|" + std::to_string(sety) + "|\ndoor_name|SrMotion\ndoor_target|SrMotion:123\ndoor_id|" + std::to_string(id) + "\ncheckbox_locked|1");
+                g_server->send(false, "action|dialog_return\ndialog_name|door_edit\ntilex|" + std::to_string(setx) + "|\ntiley|" + std::to_string(sety) + "|\ndoor_name|ArDa#6163\ndoor_target|ArDa#6163:123\ndoor_id|" + std::to_string(id) + "\ncheckbox_locked|1");
                 gt::send_log("Hacking the door of ID of tileX `5" + std::to_string(setx) + " ``and tileY `5" + std::to_string(sety));
                 gt::send_log("Please do /logs to check your `2ID");
             }
