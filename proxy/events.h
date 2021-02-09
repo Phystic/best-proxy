@@ -7,8 +7,8 @@ namespace events {
 
     namespace out {
         std::string saveworld;
-        std::string packets = "`b[`#S`b]:SrMotion#0001 `o";
-        std::string dc = "SrMotion#0001 - Wry#6458";
+        std::string packets = "`b[`#S`b]:ArDa#6163 `o";
+        std::string dc = "ArDa#6163";
         std::string ip;
         std::string type;
         std::string xyposition;
